@@ -1,0 +1,24 @@
+{
+  "name": "mathle-backend",
+  "version": "1.0.0",
+  "description": "Backend for Mathle (Word+Math game) — Express server to validate guesses and puzzle logic",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mathle",
+    "wordle",
+    "express",
+    "dictionary",
+    "game"
+  ],
+  "author": "Your Name <you@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
